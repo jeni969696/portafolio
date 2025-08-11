@@ -1,13 +1,11 @@
-# 🚀 Portfolio Profesional | [Jenifer Cruz]
+git
+# 🚀** Portafolio Profesional | [Jenifer Cruz]**
 
-```markdown
-# 🚀 Portfolio Profesional | [Jenifer Cruz]
-
-Portfolio personal desarrollado con enfoque front-end que muestra mis proyectos y habilidades.
+Portafolio personal desarrollado con enfoque front-end que muestra mis proyectos y habilidades.
 
 
 
-## ✨ Características principales
+## ✨ **Características principales**
 (llenar)
 ## 🛠 Tecnologías utilizadas
 | Categoría       | Tecnologías                 |
@@ -17,9 +15,9 @@ Portfolio personal desarrollado con enfoque front-end que muestra mis proyectos 
 | Efectos         | Transiciones CSS, Animaciones |
 | Control versiones| Git, GitHub                |
 
-## 🏗 Estructura del proyecto
+## 🏗 **Estructura del proyecto**
 ```
-portfolio/
+portafolio/
 ├── index.html
 ├── styles/
 │   └── main.css
@@ -27,7 +25,7 @@ portfolio/
 
 ```
 
-## 🚀 Cómo ejecutarlo
+## 🚀 **Cómo ejecutarlo**
 **Opción 1: GitHub Pages**  
 Disponible en: [https://github.com/jeni969696/portafolio.git]
 
@@ -38,7 +36,7 @@ cd portafolio
 # Abrir index.html en tu navegador
 ```
 
-## 🎨 Guía de estilo
+## 🎨 **Guía de estilo**
 ```css
 :root {
   --primary: #0E606A;     /* Color principal */
@@ -51,11 +49,11 @@ cd portafolio
 - **Tipografía**: Manrope (títulos), Inter (cuerpo)
 - **Efectos**: Sombras, gradientes y transiciones suaves
 
-## 📌 Roadmap
+## 📌**Roadmap**
 - [x] Versión inicial
 
 
-## 📬 Contacto
+## 📬 **Contacto**
 - ✉️ Email: [jeni9696@hotmail.com]
 - 💼 LinkedIn: 
 - 💻 GitHub: [https://github.com/jeni969696/]
