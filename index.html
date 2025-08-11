@@ -143,36 +143,55 @@
           </div>
         </section>
       </section>
-
       <section id="proyectos">
         <h2>Mis proyectos</h2>
-        <div class="proyecto">
-          <h3>Página restaurant</h3>
-          <p>
-            Este proyecto es una página web de un restaurante, donde se muestra
-            información sobre el menú, horarios y ubicación. Utiliza HTML y CSS
-            para su desarrollo.
-          </p>
-          <a href="images/restaurant.png" target="_blank">
-            <img
-              src="images/restaurant.png"
-              alt="Imagen del proyecto de la página del restaurante"
-            />
-          </a>
-        </div>
-        <div class="proyecto">
-          <h3>Página cine</h3>
-          <p>
-            Este proyecto es una página web de un cine, donde se muestra
-            información sobre las películas en cartelera, horarios y ubicación.
-            Utiliza HTML y CSS para su desarrollo.
-          </p>
-          <a href="images/cine.png" target="_blank">
-            <img
-              src="images/cine.png"
-              alt="Imagen del proyecto de la página del cine"
-            />
-          </a>
+
+        <div class="carrusel">
+          <input type="radio" name="slides" id="slide-1" checked />
+          <input type="radio" name="slides" id="slide-2" />
+
+          <div class="slides">
+            <div class="slide" id="proyecto-1">
+              <img
+                src="images/cine.png"
+                alt="Proyecto Cine"
+                class="proyecto-img"
+              />
+              <div class="proyecto-info">
+                <h3>Página recetas</h3>
+                <p>
+                  Este proyecto es una página web de recetas de cocina donde se
+                  ven sus ingredientes, pasos y una breve descripción.ademas de
+                  la información nutricional.
+                </p>
+              </div>
+            </div>
+
+            <div class="slide" id="proyecto-2">
+              <img
+                src="images/restaurant.png"
+                alt="Proyecto Restaurante"
+                class="proyecto-img"
+              />
+              <div class="proyecto-info">
+                <h3>Página restaurant</h3>
+                <p>
+                  Este proyecto es una página web de un restaurante, donde se
+                  muestra información sobre el menú, horarios y ubicación.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="controls">
+            <label for="slide-1" class="prev">‹</label>
+            <label for="slide-2" class="next">›</label>
+          </div>
+
+          <div class="bullets">
+            <label for="slide-1" class="bullet"></label>
+            <label for="slide-2" class="bullet"></label>
+          </div>
         </div>
       </section>
 

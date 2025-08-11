@@ -9,7 +9,7 @@ Portafolio personal desarrollado con enfoque front-end que muestra mis proyectos
 - Visualización clara de habilidades
 - Proyectos con descripción breve
 - Links de contacto
-
+- diseño responsive
 ## 🛠 Tecnologías utilizadas
 
 | Categoría         | Tecnologías                   |
