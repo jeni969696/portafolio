@@ -1,143 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>portafolio</title>
+    <title>Portafolio</title>
+    <!-- Agrega esto en el <head> de tu HTML -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      
-        <div id="inicio">
-          <h1>mi portafolio</h1>
-          <h2>bienvenidos a mi portafolio</h2>
-          <p>
-            El objetivo principal es mostrar mi perfil, habilidades y proyectos,
-            utilizando una estructura de **one page website** con un diseño
-            totalmente responsive.
-          </p>
-        </div>
-        <nav>
-        
-          <ul>
-            <li><a href="#sobremi">Sobre mí</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-       
+      <div id="inicio">
+        <h1>Mi portafolio</h1>
+        <h2>Bienvenidos a mi portafolio</h2>
+        <p>
+          El objetivo principal es mostrar mi perfil, habilidades y proyectos,
+          utilizando una estructura de <strong>one page website</strong> con un
+          diseño totalmente responsive.
+        </p>
+      </div>
+      <div class="header-icon">
+        <img src="images/iconpc.png" alt="Ícono de computadora" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#sobremi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
       </nav>
     </header>
 
-    <section id="sobremi">
-      <h2>sobre mi</h2>
-      <p>
-        Soy estudiante de Ingeniería Informática y me especializo en
-        programación web full stack, actualmente enfocándome en front-end.
-        Domino lenguajes como C, HTML, CSS, Assembler y SQL, y he desarrollado
-        proyectos orientados a objetos para mejorar procesos de gestión. Me
-        destaco por mi compromiso y entusiasmo, y busco una oportunidad laboral
-        donde seguir aprendiendo y aportando con mi conocimiento técnico.
-      </p>
-    </section>
-    <section id="habilidades">
-      <h2>mis habilidades</h2>
-      <section id="educacion">
-        <h3>educacion</h3>
-        <ul>
-          <li>
-            <strong>Ingeniería Informática</strong> - Universidad Nacional de la
-            Matanza(2022 - presente)
-          </li>
-          <li>
-            <strong> programacion web full stack</strong> - universidad
-            tecnologica nacional (2025 - presente)
-          </li>
-          <li>
-            <strong> programacion front end</strong> - universidad tecnologica
-            nacional (completado)
-          </li>
-        </ul>
+    <main>
+      <section id="sobremi">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy estudiante de Ingeniería Informática y me especializo en
+          programación web full stack, actualmente enfocándome en front-end.
+          Domino lenguajes como C, HTML, CSS, Assembler y SQL, y he desarrollado
+          proyectos orientados a objetos para mejorar procesos de gestión. Me
+          destaco por mi compromiso y entusiasmo, y busco una oportunidad
+          laboral donde seguir aprendiendo y aportando con mi conocimiento
+          técnico.
+        </p>
       </section>
-      <section id="habilidades tecnicas">
-        <div id="herramientas">
-          <h3>herramientas</h3>
-         <ul>
-            <li>Visual Studio Code</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            
+
+      <section id="habilidades">
+        <h2>Mis habilidades</h2>
+        <section id="educacion">
+          <h3>Educación</h3>
+          <ul>
+            <li>
+              <strong>Ingeniería Informática</strong> - Universidad Nacional de
+              la Matanza (2022 - presente)
+            </li>
+            <li>
+              <strong>Programación web full stack</strong> - Universidad
+              Tecnológica Nacional (2025 - presente)
+            </li>
+            <li>
+              <strong>Programación front end</strong> - Universidad Tecnológica
+              Nacional (completado)
+            </li>
           </ul>
-         
+        </section>
+        <section id="habilidades-tecnicas">
+          <div id="herramientas">
+            <h3>Herramientas</h3>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+          <div id="lenguajes">
+            <h3>Lenguajes</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>C</li>
+              <li>Assembler</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <section id="proyectos">
+        <h2>Mis proyectos</h2>
+        <div class="proyecto">
+          <h3>Página restaurant</h3>
+          <p>
+            Este proyecto es una página web de un restaurante, donde se muestra
+            información sobre el menú, horarios y ubicación. Utiliza HTML y CSS
+            para su desarrollo.
+          </p>
+          <a href="images/restaurant.png" target="_blank">
+            <img
+              src="images/restaurant.png"
+              alt="Imagen del proyecto de la página del restaurante"
+            />
+          </a>
         </div>
-        <div id="lenguajes">
-          <h3>lenguajes</h3>
-         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C</li>
-            <li>Assembler</li>
-            <li>SQL</li>
-          </ul>
-      </div>
-    </section>
-    <section id="proyectos">
-      <h2>mis proyectos</h2>
-      <div id="proy1">
-        <h3>pagina restaurant</h3>
-        <p>
-          Este proyecto es una página web de un restaurante, donde se muestra
-          información sobre el menú, horarios y ubicación. Utiliza HTML y CSS
-          para su desarrollo.
-        </p>
+        <div class="proyecto">
+          <h3>Página cine</h3>
+          <p>
+            Este proyecto es una página web de un cine, donde se muestra
+            información sobre las películas en cartelera, horarios y ubicación.
+            Utiliza HTML y CSS para su desarrollo.
+          </p>
+          <a href="images/cine.png" target="_blank">
+            <img
+              src="images/cine.png"
+              alt="Imagen del proyecto de la página del cine"
+            />
+          </a>
+        </div>
+      </section>
 
-      <a href="images/restaurant.png" target="_blank">
-        <img src="images/restaurant.png" alt="Imagen del proyecto de la página del restaurante" />
-      </a>
-      </div>
-      <div id="cine">
-        <h3>pagina cine</h3>
-        <p>
-          Este proyecto es una página web de un cine, donde se muestra
-          información sobre las películas en cartelera, horarios y ubicación.
-          Utiliza HTML y CSS para su desarrollo.
-        </p>
-      <a href="images/cine.png" target="_blank">
-        <img src="images/cine.png" alt="Imagen del proyecto de la página del cine" />
-      </a>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="cards-contacto">
+          <a href="images/icon.png" target="_blank">
+            <img src="images/icon.png" alt="Icono de correo" />
+          </a>
+          <a href="images/icon2.png" target="_blank">
+            <img src="images/icon2.png" alt="Icono de LinkedIn" />
+          </a>
+          <a href="images/icon3.png" target="_blank">
+            <img src="images/icon3.png" alt="Icono de GitHub" />
+          </a>
+        </div>
+      </section>
 
-      </div>
-    </section>
-    
-    <section id="contacto">
-      <h2>contacto</h2>
-      <div id="cardscontacto">
-      <a href="images/icon.png" target="_blank">
-        <img src="images/icon.png" alt="Icono de correo" />
-      </a>
-      <a href="images/icon2.png" target="_blank">
-        <img src="images/icon2.png" alt="Icono de LinkedIn" />
-      </a>
-      <a href="images/icon3.png" target="_blank">
-        <img src="images/icon3.png" alt="Icono de GitHub" />
-      </a>
+      <aside>
+        <h3>Descargas</h3>
+        <ul>
+          <li><a href="cv.pdf" download>Mi CV en PDF</a></li>
+          <li><a href="certificados.html">Certificados</a></li>
+        </ul>
+      </aside>
+    </main>
 
-</div>
-    </section>
-    <aside> <h3>Descargas</h3>
-  <ul>
-    <li><a href="cv.pdf" download>Mi CV en PDF</a></li>
-    <li><a href="certificados.html">Certificados</a></li>
-  </ul></aside>
-      <footer> 
-        <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
-  <p>Desarrollado con 💻 HTML5 y CSS3</p>
-  <nav>
-    <a href="#inicio">Volver al inicio</a> |
-    <a href="politica-privacidad.html">Política de privacidad</a>
-  </nav></footer>
+    <footer>
+      <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+      <p>Desarrollado con 💻 HTML5 y CSS3</p>
+      <nav>
+        <a href="#inicio">Volver al inicio</a> |
+        <a href="politica-privacidad.html">Política de privacidad</a>
+      </nav>
+    </footer>
   </body>
-
 </html>

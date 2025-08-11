@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ 
+  background-image: url('images/fondo.jpg');
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 3 rem;
+  letter-spacing: -0.5px; /* Espaciado ajustado */
+  color: white; /*  */
+}
+
+h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #2D3748;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medio */
+  font-size: 1.4rem;
+  color: #4A5568; /* Gris  */
+}
+
+
+body, p, li, a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; /* medio tam */
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #4A5568;
+}
