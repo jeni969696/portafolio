@@ -7,32 +7,37 @@
 
 :root {
   --color-bg: #051220;
-  --color-primary: #0E606A;
-  --color-secondary: #1A4067;
+  --color-primary: #0e606a;
+  --color-secondary: #1a4067;
   --color-text: #e0e0e0;
-  --color-accent: #183A28;
+  --color-accent: #183a28;
 }
 
 /* Estilos generales */
 body {
-  font-family: 'Inter', sans-serif;
-  background: 
-    linear-gradient(to bottom, rgba(5, 18, 32, 0.4), rgba(5, 18, 32, 0.4)),
-    url('./images/fondo.jpg') center/cover no-repeat fixed;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+      to bottom,
+      rgba(5, 18, 32, 0.4),
+      rgba(5, 18, 32, 0.4)
+    ),
+    url("./images/fondo.jpg") center/cover no-repeat fixed;
   color: var(--color-text);
   line-height: 1.6;
   min-height: 100vh;
 }
 
-h1, h2, h3 {
-  font-family: 'Manrope', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Manrope", sans-serif;
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
 h1 {
   font-size: 2.8rem;
-  
+
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -43,7 +48,7 @@ h2 {
 }
 
 h2::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -98,7 +103,7 @@ nav li {
 }
 
 nav li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -142,9 +147,10 @@ section {
   margin-top: 2rem;
 }
 
-#herramientas, #lenguajes {
+#herramientas,
+#lenguajes {
   flex: 1;
-  
+
   padding: 1.5rem;
   border-radius: 8px;
 }
@@ -185,7 +191,7 @@ section {
 
 .skill-level {
   height: 100%;
-  background: linear-gradient(90deg, var(--color-primary), #4ECDC4);
+  background: linear-gradient(90deg, var(--color-primary), #4ecdc4);
   border-radius: 4px;
   transition: width 0.5s ease;
 }
@@ -254,4 +260,3 @@ footer {
   background: var(--color-bg);
   border-top: 1px solid var(--color-primary);
 }
-
