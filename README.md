@@ -4,7 +4,11 @@ Portafolio personal desarrollado con enfoque front-end que muestra mis proyectos
 
 ## ✨ **Características principales**
 
-(llenar)
+- Diseño moderno 
+- Fácil navegación por secciones  
+- Visualización clara de habilidades  
+- Proyectos con descripción breve  
+- Links de contacto
 
 ## 🛠 Tecnologías utilizadas
 
